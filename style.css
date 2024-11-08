@@ -1,0 +1,29 @@
+@import url('https://fonts.cdnfonts.com/css/digital-7-mono');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e252e;
+}
+.clock{
+    font-family: digital-7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+    width: 600px;
+    height: 200px;
+    font-size: 125px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid rgb(255, 28, 28);
+    color: rgb(255, 28, 28);
+    box-shadow: 0px 0px 50px rgb(255, 28, 28) ;
+    border-radius: 20px;
+    padding: 0px 20px;
+}
+.semicolon{
+    padding: 0 15px;
+}
